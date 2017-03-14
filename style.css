@@ -1,0 +1,62 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/food.png);
+}
+
+body * {
+  font-family: inherit;
+}
+
+main {
+  max-width: 1200px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  font-size: 32px;
+  color: #fff;
+  background-color: #666;
+  margin-bottom: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.longurl {
+  display: block;
+  padding: 10px;
+  font-size: 26px;
+  margin: 20px auto;
+  width: 550px;
+  color: #999;
+}
+
+.btn-create {
+  background-color: #666;
+  border: none;
+  padding: 12px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.result {
+  margin-top: 30px;
+  height: 50px;
+}
+
+.result a {
+    color: #fff;
+    background-color: #666;
+    margin-top: 10px;
+    padding: 10px
+ }
+
+ .result b {
+   padding: 10px;
+   background: #fff;
+   margin-top: 10px;
+ }
